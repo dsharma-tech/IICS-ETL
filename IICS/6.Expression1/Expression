@@ -1,1 +1,11 @@
+FULL_NAME 
+LTRIM(RTRIM(IO_FIRST_NAME)) || ' ' || LTRIM(RTRIM(IO_LAST_NAME))
 
+AGE_GROUP
+IIF(IAGE_YEARS < 13, 'Child',
+  IIF(IAGE_YEARS < 20, 'Teen',
+    IIF(IAGE_YEARS < 35, 'Young Adult',
+      IIF(IAGE_YEARS < 60, 'Adult', 'Senior')
+    )
+  )
+)
