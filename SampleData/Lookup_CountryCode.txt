@@ -1,0 +1,12 @@
+Country_Code,Full_Form,Dialing_Code
+US,United States,+1
+CA,Canada,+1
+UK,United Kingdom,+44
+IN,India,+91
+AU,Australia,+61
+NZ,New Zealand,+64
+ZA,South Africa,+27
+CN,China,+86
+SG,Singapore,+65
+PK,Pakistan,+92
+KR,South Korea,+82
