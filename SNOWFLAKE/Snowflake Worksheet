@@ -1,0 +1,52 @@
+create database etl_project;
+
+CREATE SCHEMA source;
+CREATE SCHEMA target;
+CREATE SCHEMA error;
+
+
+CREATE or replace TABLE source.customer_data (
+    id number,
+    first_name STRING,
+    last_name STRING,
+    email STRING,
+    phone STRING,
+    country_code STRING,
+    dob STRING
+);
+
+select * from customer_data;
+
+CREATE or replace TABLE country_code (
+  country_code VARCHAR(5),
+  full_form VARCHAR(100),
+  dialing_code number
+);
+
+select * from country_code;
+
+CREATE or replace TABLE ERROR.INVALIDTEST1 (
+    id number,
+    first_name STRING,
+    last_name STRING,
+    email STRING,
+    phone STRING,
+    country_code STRING,
+    dob string,
+    AGE_YEARS INTEGER
+);
+CREATE or replace TABLE TARGET.VALIDTEST2 (
+    id number,
+    first_name STRING,
+    last_name STRING,
+    email STRING,
+    phone STRING,
+    country_code STRING,
+    dob string,
+    AGE_YEARS INTEGER,
+    FULL_NAME STRING,
+    AGE_GROUP STRING
+);
+
+SELECT * FROM TARGET.VALIDTEST2;
+SELECT * FROM ERROR.INVALIDTEST1;
