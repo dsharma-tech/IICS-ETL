@@ -1,0 +1,18 @@
+ID,FIRST_NAME,LAST_NAME,EMAIL,PHONE,COUNTRY_CODE,DOB,AGE_YEARS,FULL_NAME,AGE_GROUP
+1,Bob,Ali,bob.ali@example.com,5551234567,NZ,1982-11-18,42,Bob Ali,Adult
+3,John,Kim,john.kim@example.com,1234567890,NZ,1978-06-10,47,John Kim,Adult
+4,Grace,Patel,grace.patel@example.com,1234567890,ZA,1976-10-06,49,Grace Patel,Adult
+5,Dana,Doe,dana.doe@example.com,5551234567,KR,2002-11-28,22,Dana Doe,Young Adult
+6,Zara,Smith,zara.smith@example.com,1234567890,UK,1984-02-27,41,Zara Smith,Adult
+7,Noah,Smith,noah.smith@example.com,1234567890,CA,1996-08-16,29,Noah Smith,Young Adult
+9,Bob,Ali,bob.ali@example.com,1234567890,CA,2006-06-01,19,Bob Ali,Teen
+10,Emma,Lee,emma.lee@example.com,1234567890,CN,2009-03-20,16,Emma Lee,Teen
+11,Zara,Wong,zara.wong@example.com,5551234567,CA,1989-12-20,35,Zara Wong,Adult
+12,Noah,Smith,noah.smith@example.com,1234567890,PK,1976-05-25,49,Noah Smith,Adult
+13,Alice,Chen,alice.chen@example.com,1234567890,NZ,2007-07-27,18,Alice Chen,Teen
+14,Noah,Doe,noah.doe@example.com,1234567890,UK,1976-01-20,49,Noah Doe,Adult
+15,Frank,Hopper,frank.hopper@example.com,5551234567,NZ,1996-05-13,29,Frank Hopper,Young Adult
+16,Eve,Smith,eve.smith@example.com,5551234567,UK,1990-02-10,35,Eve Smith,Adult
+17,Charlie,White,charlie.white@example.com,1234567890,CN,2019-09-12,6,Charlie White,Child
+18,Liam,Black,liam.black@example.com,1234567890,IN,1988-07-23,37,Liam Black,Adult
+20,Dana,White,dana.white@example.com,1234567890,CA,2013-07-07,12,Dana White,Child
